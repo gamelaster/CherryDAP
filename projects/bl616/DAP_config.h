@@ -268,11 +268,11 @@ __STATIC_INLINE uint8_t DAP_GetProductFirmwareVersionString (char *str) {
 
 #include "bflb_gpio.h"
 
-#define PIN_TCK      10
-#define PIN_TMS      12
-#define PIN_TDI      14
-#define PIN_TDO      16
-#define PIN_nRESET   17
+#define PIN_TCK      28
+#define PIN_TMS      27
+#define PIN_TDI      29
+#define PIN_TDO      30
+#define PIN_nRESET   12
 
 extern struct bflb_device_s *g_gpio;
 

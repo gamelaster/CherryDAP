@@ -1,8 +1,8 @@
 #ifndef _USB2UART_H
 #define _USB2UART_H
 
-#define UART_TX_PIN 11
-#define UART_RX_PIN 13
+#define UART_TX_PIN 14
+#define UART_RX_PIN 15
 
 #define UART_RX_DMA_BUF_SIZE (16 * 1024)
 
